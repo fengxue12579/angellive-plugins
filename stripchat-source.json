@@ -1,6 +1,6 @@
 {
   "apiVersion": 1,
-  "generatedAt": "2026-06-04T07:05:00.000Z",
+  "generatedAt": "2026-06-04T08:10:00.000Z",
   "sourceName": "Angel Live Custom Source - StripChat",
   "plugins": [
     {
@@ -9,19 +9,19 @@
       "platform": "stripchat",
       "platformName": "StripChat",
       "platformDescription": "StripChat 全球直播平台",
-      "icon": "assets/live_card_stripchat.jpg",
-      "iosIcon": "assets/live_card_stripchat.jpg",
-      "macosIcon": "assets/live_card_stripchat.jpg",
-      "tvosIcon": "assets/live_card_stripchat.jpg",
-      "tvosBigIcon": "assets/tv_stripchat_big.jpg",
-      "tvosSmallIcon": "assets/tv_stripchat_small.jpg",
-      "tvosBigIconDark": "assets/tv_stripchat_big_dark.jpg",
-      "tvosSmallIconDark": "assets/tv_stripchat_small_dark.jpg",
+      "icon": "assets/live_card_stripchat.png",
+      "iosIcon": "assets/live_card_stripchat.png",
+      "macosIcon": "assets/live_card_stripchat.png",
+      "tvosIcon": "assets/live_card_stripchat.png",
+      "tvosBigIcon": "assets/tv_stripchat_big.png",
+      "tvosSmallIcon": "assets/tv_stripchat_small.png",
+      "tvosBigIconDark": "assets/tv_stripchat_big_dark.png",
+      "tvosSmallIconDark": "assets/tv_stripchat_small_dark.png",
       "zipURL": "https://github.com/fengxue12579/angellive-plugins/releases/download/v1.0.0/stripchat-1.0.0.zip",
       "zipURLs": [
-        "PLACEHOLDER_REPLACE_WITH_YOUR_ZIP_URL"
+        "https://github.com/fengxue12579/angellive-plugins/releases/download/v1.0.0/stripchat-1.0.0.zip"
       ],
-      "sha256": "b69b6a1b2646e15b4867b3ae432d689d84aa1595f61e91d6d8a0fddebaba2c6d",
+      "sha256": "2cb80d80f75935dd240c17241d5b2735a5033daa52b86ebba4be9eab15c2d9f8",
       "auth": {
         "required": false,
         "credentialKinds": [],
