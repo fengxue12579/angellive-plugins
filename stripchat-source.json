@@ -1,0 +1,21 @@
+{
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "stripchat",
+      "version": "2.0.1",
+      "zipURL": "https://github.com/fengxue12579/angellive-plugins/releases/download/V2.0.1/stripchat-2.0.1.zip",
+      "sha256": "e46cb97325fe3d44305905aaf5a15e61e3a4efb1d1e447d5d4a7df73d642ae03",
+      "capabilities": {
+        "categories": { "status": "available" },
+        "rooms": { "status": "available" },
+        "playback": { "status": "available" },
+        "search": { "status": "unavailable" },
+        "roomDetail": { "status": "available" },
+        "liveState": { "status": "available" },
+        "shareResolve": { "status": "available" },
+        "danmaku": { "status": "unavailable" }
+      }
+    }
+  ]
+}
