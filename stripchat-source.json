@@ -1,0 +1,23 @@
+{
+  "pluginId": "stripchat",
+  "version": "2.9.1",
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "stripchat",
+      "version": "2.9.1",
+      "zipURL": "https://stripchat-proxy.fengxue556.ccwu.cc/update/fengxue12579/angellive-plugins/releases/download/V2.9.1/stripchat-2.9.1.zip",
+      "sha256": "d8cb2bb39f2e662e37a2451ffe3b74dfadf312e7d66dcf164ca882f9e9d6ad7a",
+      "capabilities": {
+        "categories": { "status": "available" },
+        "rooms": { "status": "available" },
+        "playback": { "status": "available" },
+        "search": { "status": "unavailable" },
+        "roomDetail": { "status": "available" },
+        "liveState": { "status": "available" },
+        "shareResolve": { "status": "available" },
+        "danmaku": { "status": "unavailable" }
+      }
+    }
+  ]
+}
