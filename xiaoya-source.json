@@ -1,0 +1,39 @@
+{
+  "pluginId": "xiaoya-live",
+  "version": "2.0.4",
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "xiaoya-live",
+      "version": "2.0.4",
+      "platform": "xiaoya-live",
+      "platformName": "小雅直播",
+      "zipURL": "https://raw.githubusercontent.com/fengxue12579/angellive-plugins/main/xiaoya-live-2.0.4.zip",
+      "platformDescription": "基于T4 API的直播聚合插件，支持分类浏览和搜索",
+      "changelog": [
+        "v2.0.4 修复search中twRooms未拼接、TW直播liveCodeType改为ts",
+        "v2.0.3 新增TW直播分类（6个本地频道）",
+        "v2.0.2 修复全部准则合规问题",
+        "v2.0.1 修复 fetch 不存在，改用 Host.http.request",
+        "v2.0.0 完全重写，改用T4 API数据源"
+      ],
+      "auth": {
+        "required": false,
+        "credentialKinds": [],
+        "supportsStatusCheck": false,
+        "supportsValidation": false
+      },
+      "capabilities": {
+        "categories": { "status": "available" },
+        "rooms": { "status": "available" },
+        "playback": { "status": "available" },
+        "search": { "status": "available" },
+        "roomDetail": { "status": "available" },
+        "liveState": { "status": "available" },
+        "shareResolve": { "status": "unavailable" },
+        "danmaku": { "status": "unavailable" }
+      },
+      "visibility": "public"
+    }
+  ]
+}
