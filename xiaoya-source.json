@@ -1,0 +1,36 @@
+{
+  "pluginId": "xiaoya-live",
+  "version": "2.0.0",
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "xiaoya-live",
+      "version": "2.0.0",
+      "platform": "xiaoya-live",
+      "platformName": "小雅直播",
+      "zipURL": "https://github.com/fengxue12579/angellive-plugins/releases/download/V2.0.0/xiaoya-live-2.0.0.zip",
+      "sha256": "c4d8f0c6fd94ae75fc249bb1757878a7edf699326bee8c7403e7440cd17b417e",
+      "platformDescription": "基于T4 API的直播聚合插件，支持分类浏览和搜索",
+      "changelog": [
+        "v2.0.0 完全重写，改用T4 API数据源（api.hclyz.com）"
+      ],
+      "auth": {
+        "required": false,
+        "credentialKinds": [],
+        "supportsStatusCheck": false,
+        "supportsValidation": false
+      },
+      "capabilities": {
+        "categories": { "status": "available" },
+        "rooms": { "status": "available" },
+        "playback": { "status": "available" },
+        "search": { "status": "available" },
+        "roomDetail": { "status": "available" },
+        "liveState": { "status": "available" },
+        "shareResolve": { "status": "unavailable" },
+        "danmaku": { "status": "unavailable" }
+      },
+      "visibility": "public"
+    }
+  ]
+}
