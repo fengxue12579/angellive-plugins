@@ -1,0 +1,23 @@
+{
+  "pluginId": "xiaoya",
+  "version": "2.1.4",
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "xiaoya",
+      "version": "2.1.4",
+      "zipURL": "https://github.com/fengxue12579/angellive-plugins/releases/download/V2.1.4/xiaoya-2.1.4.zip",
+      "sha256": "e930f2a96f739b1a3994e04c8f414af9ac6bac01160fe948ee105097e84f099c",
+      "capabilities": {
+        "categories": { "status": "available" },
+        "rooms": { "status": "available" },
+        "playback": { "status": "available" },
+        "search": { "status": "available" },
+        "roomDetail": { "status": "available" },
+        "liveState": { "status": "available" },
+        "shareResolve": { "status": "unavailable" },
+        "danmaku": { "status": "unavailable" }
+      }
+    }
+  ]
+}
