@@ -1,0 +1,19 @@
+{
+  "id": "xiaoya-live",
+  "name": "小雅直播",
+  "version": "1.0.0",
+  "minHostVersion": "1.0.0",
+  "description": "基于M3U直播源的聚合插件，动态解析源内分类（卡哇伊、咪狐、花蝴蝶、蜜桃、番茄社区等），支持搜索和播放",
+  "author": "Xiaoya",
+  "entry": "index.js",
+  "capabilities": {
+    "categories": true,
+    "rooms": true,
+    "playback": true,
+    "search": true,
+    "roomDetail": true,
+    "liveState": true,
+    "shareResolve": false,
+    "danmaku": false
+  }
+}
