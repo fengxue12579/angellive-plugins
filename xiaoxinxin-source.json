@@ -1,0 +1,23 @@
+{
+  "pluginId": "xiaoxinxin",
+  "version": "1.0.1",
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "xiaoxinxin",
+      "version": "1.0.1",
+      "zipURL": "https://gcore.jsdelivr.net/gh/fengxue12579/angellive-plugins@V1.0.1/xiaoxinxin-1.0.1.zip",
+      "sha256": "71410362d821c1cc76083ae836da73236c3f01cfb2152fa8219a96d6c242f904",
+      "capabilities": {
+        "categories": { "status": "available" },
+        "rooms": { "status": "available" },
+        "playback": { "status": "available" },
+        "search": { "status": "unavailable" },
+        "roomDetail": { "status": "available" },
+        "liveState": { "status": "available" },
+        "shareResolve": { "status": "available" },
+        "danmaku": { "status": "unavailable" }
+      }
+    }
+  ]
+}
