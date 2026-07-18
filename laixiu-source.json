@@ -1,13 +1,13 @@
 {
   "pluginId": "laixiu",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "apiVersion": 1,
   "plugins": [
     {
       "pluginId": "laixiu",
-      "version": "1.1.0",
-      "zipURL": "https://raw.githubusercontent.com/fengxue12579/angellive-plugins/main/laixiu-1.1.0.zip",
-      "sha256": "d9f16e29570b5a2d6e950030ab070aa68b4df8555d1c7dcde9eab6b2b0d89b64",
+      "version": "1.2.0",
+      "zipURL": "https://raw.githubusercontent.com/fengxue12579/angellive-plugins/main/laixiu-1.2.0.zip",
+      "sha256": "55e51c32d80992a60d0b70b3ea1d58c4aa1725bdc4d48e1189c4018180036941",
       "capabilities": {
         "categories": { "status": "available" },
         "rooms": { "status": "available" },
