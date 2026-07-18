@@ -1,0 +1,23 @@
+{
+  "pluginId": "laixiu",
+  "version": "1.1.0",
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "laixiu",
+      "version": "1.1.0",
+      "zipURL": "https://raw.githubusercontent.com/fengxue12579/angellive-plugins/main/laixiu-1.1.0.zip",
+      "sha256": "d9f16e29570b5a2d6e950030ab070aa68b4df8555d1c7dcde9eab6b2b0d89b64",
+      "capabilities": {
+        "categories": { "status": "available" },
+        "rooms": { "status": "available" },
+        "playback": { "status": "available" },
+        "search": { "status": "available" },
+        "roomDetail": { "status": "available" },
+        "liveState": { "status": "available" },
+        "shareResolve": { "status": "available" },
+        "danmaku": { "status": "unavailable" }
+      }
+    }
+  ]
+}
