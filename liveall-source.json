@@ -1,0 +1,53 @@
+{
+  "pluginId": "liveall",
+  "version": "1.0.6",
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "liveall",
+      "version": "1.0.6",
+      "platform": "liveall",
+      "platformName": "直播聚合",
+      "zipURL": "https://raw.githubusercontent.com/fengxue12579/angellive-plugins/main/liveall-1.0.6.zip",
+      "sha256": "67dfb0e21e6a0ad886f72f3d29117dd7a25db95d11c7e443a797f47cbd9ba28e",
+      "platformDescription": "9平台直播聚合",
+      "changelog": [
+        "v1.0.6 去掉错误吞掉，显示真实错误"
+      ],
+      "auth": {
+        "required": false
+      },
+      "capabilities": {
+        "categories": {
+          "status": "available"
+        },
+        "rooms": {
+          "status": "available"
+        },
+        "playback": {
+          "status": "available"
+        },
+        "search": {
+          "status": "available"
+        },
+        "roomDetail": {
+          "status": "available"
+        },
+        "liveState": {
+          "status": "available"
+        },
+        "shareResolve": {
+          "status": "available"
+        },
+        "danmaku": {
+          "status": "unavailable"
+        }
+      },
+      "icon": "assets/live_card_liveall.png",
+      "tvosIcon": "assets/live_card_liveall.png",
+      "iosIcon": "assets/live_card_liveall.png",
+      "macosIcon": "assets/live_card_liveall.png",
+      "visibility": "public"
+    }
+  ]
+}
