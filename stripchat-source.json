@@ -1,0 +1,53 @@
+{
+  "pluginId": "stripchat",
+  "version": "1.1.1",
+  "apiVersion": 1,
+  "plugins": [
+    {
+      "pluginId": "stripchat",
+      "version": "1.1.1",
+      "platform": "stripchat",
+      "platformName": "Stripchat",
+      "zipURL": "https://raw.githubusercontent.com/fengxue12579/angellive-plugins/main/stripchat-1.1.1.zip",
+      "sha256": "1181d93207739346519bf1d1e107c6f421f8a067848b8bb6e75090619c06b284",
+      "platformDescription": "Stripchat 欧美直播平台",
+      "changelog": [
+        "v1.1.1 去掉自动清晰度，默认原画降序"
+      ],
+      "auth": {
+        "required": false
+      },
+      "capabilities": {
+        "categories": {
+          "status": "available"
+        },
+        "rooms": {
+          "status": "available"
+        },
+        "playback": {
+          "status": "available"
+        },
+        "search": {
+          "status": "available"
+        },
+        "roomDetail": {
+          "status": "available"
+        },
+        "liveState": {
+          "status": "available"
+        },
+        "shareResolve": {
+          "status": "available"
+        },
+        "danmaku": {
+          "status": "unavailable"
+        }
+      },
+      "icon": "assets/live_card_stripchat.png",
+      "tvosIcon": "assets/live_card_stripchat.png",
+      "iosIcon": "assets/live_card_stripchat.png",
+      "macosIcon": "assets/live_card_stripchat.png",
+      "visibility": "public"
+    }
+  ]
+}
