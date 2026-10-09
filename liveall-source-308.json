@@ -1,0 +1,16 @@
+{
+  "apiVersion": 1,
+  "version": "3.0.8",
+  "plugins": [
+    {
+      "pluginId": "liveall",
+      "version": "3.0.8",
+      "displayName": "直播聚合",
+      "zipURL": "https://cdn.jsdelivr.net/gh/fengxue12579/angellive-plugins@main/liveall-3.0.8.zip",
+      "sha256": "c1778703175581d1da9b1127c98270487d19d5463f8118a4314779538ff1ad46",
+      "changelog": [
+        "v3.0.8 修复版本号"
+      ]
+    }
+  ]
+}
